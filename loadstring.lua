@@ -1,5 +1,3 @@
-shared.FutureDeveloper = true
-
 local betterisfile = function(file)
 	local suc, res = pcall(function() return readfile(file) end)
 	return suc and res ~= nil
